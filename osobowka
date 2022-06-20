@@ -1,0 +1,21 @@
+package Zaliczenie2;
+
+public class Osobowka extends Pojazdy {
+
+    private int Bilet;
+
+    public Osobowka(String marka, String rejestracja) {
+        super(marka, rejestracja);
+        this.Bilet = 5;
+    }
+    public int getBilet() {
+        return Bilet;
+    }
+
+    @Override
+    public String toString() {
+        return "Osobowka{" +
+                "Bilet=" + Bilet +
+                '}';
+    }
+}
